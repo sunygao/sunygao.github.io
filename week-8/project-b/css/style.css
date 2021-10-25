@@ -1,0 +1,29 @@
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(74, 74, 74);
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all .5s ease-out;
+    margin: 10px;
+}
+
+#box-left {
+    background: lavender;
+}
+
+#box-right {
+    background: coral;
+}

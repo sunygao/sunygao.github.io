@@ -1,0 +1,17 @@
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(74, 74, 74);
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background: lavender;
+    transition: all .5s ease-out;
+}
