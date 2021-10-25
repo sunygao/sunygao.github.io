@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    -webkit-appearance: none;
+    border: 0px;
+    border-radius: 5px;
+    background: rgb(99, 93, 222);
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+
