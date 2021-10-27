@@ -1,0 +1,70 @@
+body {
+    background-color: #F7EBEB;
+    margin: 0;
+    padding: 0;
+}
+
+#image-container {
+    width:1000px;
+    height:675px;
+    left:350px;
+    position:absolute;
+    display: block;
+    margin-top:40px;
+    background-image:url("../image/cat1.jpg");
+    background-size: 100%;
+    
+}
+
+/*#image-container img {
+    width: 100%;
+    display: block;
+    position: absolute;
+}*/
+
+
+#blocks{
+    width: 1000px;
+    height:675px;
+    position:absolute;
+    display:grid;
+    grid-template-columns: repeat(11,1fr);
+    margin:0;
+    padding:0;
+}
+
+#blocks div{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    transition-duration: .3s;
+}
+
+#blocks :nth-child(odd){
+    background-color:#EEC8C8 ;
+}
+
+#blocks :nth-child(even){
+    background-color:#9D6666 ;
+}
+
+button{
+    font-family: sans-serif;
+    font-size: 30px;
+    color:#9D6666;
+    width: 200px;
+    height:200px;
+    position:absolute;
+    left:100px;
+    top:300px;
+    border-radius: 5px;
+    background-color: #F7EBEB;
+    display: block;
+    outline: none;
+    border:none;
+ 
+}
+
+
+
