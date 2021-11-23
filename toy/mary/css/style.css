@@ -1,0 +1,158 @@
+
+p {
+    color:white;
+    position: absolute;
+    left:41.5%;
+}
+
+body {
+    background-color: #252525;
+}
+
+
+
+#plate {
+    position:relative;
+    height:100%;
+    width:100%;
+    margin-left:60px;
+}
+
+.shard {
+    animation-name: fall-down;
+    animation-duration:1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+@keyframes fall-down{
+100% {transform: translate(0%,1000%)}
+}
+
+.running {
+    animation-play-state: running;
+}
+
+img {
+    position:absolute;
+}
+
+#img1 {
+    top:401px;
+    left:572px;
+}
+
+#img2 {
+    top:381px;
+    left:441px;
+}
+#img3 {
+    top:267px;
+    left:775px;
+}
+#img4 {
+    top:408px;
+    left:722px;
+}
+#img5 {
+    top:411px;
+    left:346px;
+}
+#img6 {
+    top:407px;
+    left:676px;
+}
+#img7 {
+    top:457px;
+    left:618px;
+}
+#img8 {
+    top:457px;
+    left:709px;
+}
+
+#img9 {
+    top:480px;
+    left:549px;
+}
+#img10 {
+    top:285px;
+    left:327px;
+}
+#img11 {
+    top:456px;
+    left:364px;
+}
+#img12 {
+    top:480px;
+    left:451px;
+}
+#img13 {
+    top:161px;
+    left:336px;
+}
+#img14 {
+    top:185px;
+    left:787px;
+}
+#img15 {
+    top:267px;
+    left:760px;
+}
+#img16 {
+    top:75px;
+    left:399px;
+}
+#img17 {
+    top:50px;
+    left:487px;
+}
+#img18 {
+    top:48px;
+    left:604px;
+}
+#img19 {
+    top:68px;
+    left:692px;
+}
+#img20 {
+    top:139px;
+    left:738px;
+}
+#img21 {
+    top:112px;
+    left:704px;
+}
+#img22 {
+    top:108px;
+    left:537px;
+}
+#img23 {
+    top:228px;
+    left:485px;
+}
+#img24 {
+    top:145px;
+    left:599px;
+}
+#img25 {
+    top:305px;
+    left:507px;
+}
+#img26 {
+    top:284px;
+    left:538px;
+}
+#img27 {
+    top:355px;
+    left:637px;
+}
+#img28 {
+    top:250px;
+    left:663px;
+}
+#img29 {
+    top:311px;
+    left:726px;
+}

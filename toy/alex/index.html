@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+
+    <title>Hello World!</title>
+
+   
+    <link rel="stylesheet" href="css/styles.css" />
+
+    
+    <script src="js/global.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    
+  </head>
+  
+  <body>
+  
+    <h1 id="header">choose some seeds to plant :)</h1>
+
+    <section id="img-container">
+      <div class="box" id="chrys">
+        <img class="image" id="chrys-img" src="images/seeds-1.svg">
+      </div>
+      <div class="box" id="rose">
+        <img class="image"  id="rose-img" src="images/seeds-2.svg">
+      </div>
+      <div class="box" id="daisy">
+        <img class="image" id="daisy-img" src="images/seeds-3.svg">
+      </div>
+      <div class="box" id="violet">
+        <img class="image" id="violet-img" src="images/seeds-4.svg">
+      </div>
+    </section>
+    
+    <section id="timer-container">
+      <input type="number" id="hours" max="23" min="0" placeholder="hours">
+    
+      <input type="number" id="minutes" max="59" min="0" placeholder="minutes">
+    
+      <input type="number" id="seconds" max="59" min="0" placeholder="seconds">
+
+      <button type="button" id="start">
+      Start/Reset
+      </button>
+
+      <p>make sure each number is at least 0 before starting!</p>
+    </section>
+
+  </body>
+</html>

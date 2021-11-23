@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    height: 1093px;
+    overflow: hidden;
+    background-color: #dcd9fd;
+}
+
+.container {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    cursor: url("../images/mouse.png"), auto;
+}
+
+div {
+    height: 364.333px;
+    width: 409.4px;
+    float:left;
+} 
+
+.one {
+    position: fixed;
+}
+
+.two {
+    position: fixed;
+    left: 409.4px;
+}
+
+.three {
+    position: fixed;
+    left: 818.8px;
+}
+
+.four {
+    position: fixed;
+    left: 1228.2px;
+}
+
+.five {
+    position: fixed;
+    left: 1637.6px;
+}
+
+.six {
+    position: fixed;
+    top: 364.333px;
+}
+
+.seven {
+    position: fixed;
+    top: 364.333px;
+    left: 409.4px;
+}
+
+.eight {
+    position: fixed;
+    top: 364.333px;
+    left: 818.8px;
+}
+
+.nine {
+    position: fixed;
+    top: 364.333px;
+    left: 1228.2px;
+}
+.ten {
+    position: fixed;
+    top: 364.333px;
+    left: 1637.6px;
+}
+
+.eleven {
+    position: fixed;
+    top: 728.667px;
+}
+
+.twelve {
+    position: fixed;
+    top: 728.667px;
+    left: 409.4px;
+}
+
+.thirteen {
+    position: fixed;
+    top: 728.667px;
+    left: 818.8px;
+}
+
+.fourteen {
+    position: fixed;
+    top: 728.667px;
+    left: 1228.2px;
+}
+
+.fifteen {
+    position: fixed;
+    top: 728.667px;
+    left: 1637.6px;
+}

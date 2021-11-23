@@ -1,0 +1,64 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tan;
+    ;
+}
+#howlsroom{
+    width: 1024px;
+    height: 554px;
+    z-index: 1;
+    position: fixed;
+}
+#eye{ 
+    width: 124px;
+    height: 174px;
+    z-index: 2;
+    position: relative;
+    left: 668px;
+    top: -14px;
+    cursor: pointer;
+    opacity: 0;
+    
+}
+#feather{
+    width: 196.5px;
+    height: 267px;
+    z-index: 3;
+   position: relative;
+   left: -38px;
+    top: 143px;
+    cursor: pointer;
+    opacity: 0;
+}
+#globe{
+    width: 195px;
+    height: 103.5px;
+    z-index: 4;
+    position: relative;
+    left: -63px;
+    top: -225px;
+    cursor: pointer;
+    opacity: 0;
+}
+#howl{
+    width: 363;
+    height: 304.5;
+    z-index: 5;
+    position: relative;
+    left: -248px;
+    top: 73px;
+    cursor: pointer;
+    opacity: 0;
+}
+#toy{
+    width: 316.5;
+    height: 102.5;
+    z-index: 6;
+    position: relative;
+    left: -133px;
+    top: 155px;
+    cursor: pointer;
+    opacity: 0;
+}

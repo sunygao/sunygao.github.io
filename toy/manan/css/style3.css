@@ -1,0 +1,25 @@
+#workingGuy {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .content {
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .whattodo {
+    font-size: 32px;
+    padding: 10px;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+  }
