@@ -70,7 +70,7 @@ body {
 }
 
 #bottleIdle {
-    background-image: url(C4D/bottle_img.jp);
+    background-image: url(assets/bottle_img.jp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat, no-repeat;
