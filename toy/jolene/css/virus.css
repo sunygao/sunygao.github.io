@@ -1,0 +1,36 @@
+#page_container {position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+  .wrapper {
+    text-align: center;
+    margin-left:40;
+    margin-top: 100;
+}
+  .btn {
+    background-color: #c71111;
+    border: none;
+    border-radius: 50px ;
+    color: rgb(237, 243, 241);
+    padding: 15px 32px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transform: translateX(-50%);
+    margin-top: 450px;
+    margin-left: 50%;
+    
+  }
+div{text-align: center}
+#page_container img {position: absolute;}
